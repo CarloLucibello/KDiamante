@@ -1,0 +1,121 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'mainwindow.h'
+**
+** Created: Wed Apr 16 11:49:15 2014
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "mainwindow.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'mainwindow.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_MainWindow[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       8,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      19,   12,   11,   11, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      36,   31,   11,   11, 0x0a,
+      62,   11,   11,   11, 0x0a,
+      90,   84,   11,   11, 0x0a,
+     119,   11,   11,   11, 0x0a,
+     132,   11,   11,   11, 0x0a,
+     149,   11,   11,   11, 0x0a,
+     174,   12,   11,   11, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_MainWindow[] = {
+    "MainWindow\0\0paused\0pause(bool)\0mode\0"
+    "startGame(KDiamond::Mode)\0"
+    "startGameDispatcher()\0state\0"
+    "stateChange(KDiamond::State)\0gameIsOver()\0"
+    "showHighscores()\0configureNotifications()\0"
+    "pausedAction(bool)\0"
+};
+
+void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        MainWindow *_t = static_cast<MainWindow *>(_o);
+        switch (_id) {
+        case 0: _t->pause((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 1: _t->startGame((*reinterpret_cast< KDiamond::Mode(*)>(_a[1]))); break;
+        case 2: _t->startGameDispatcher(); break;
+        case 3: _t->stateChange((*reinterpret_cast< KDiamond::State(*)>(_a[1]))); break;
+        case 4: _t->gameIsOver(); break;
+        case 5: _t->showHighscores(); break;
+        case 6: _t->configureNotifications(); break;
+        case 7: _t->pausedAction((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData MainWindow::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject MainWindow::staticMetaObject = {
+    { &KXmlGuiWindow::staticMetaObject, qt_meta_stringdata_MainWindow,
+      qt_meta_data_MainWindow, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &MainWindow::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *MainWindow::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *MainWindow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_MainWindow))
+        return static_cast<void*>(const_cast< MainWindow*>(this));
+    return KXmlGuiWindow::qt_metacast(_clname);
+}
+
+int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = KXmlGuiWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 8)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 8;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void MainWindow::pause(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+QT_END_MOC_NAMESPACE
