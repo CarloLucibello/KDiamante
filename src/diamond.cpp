@@ -35,9 +35,10 @@ QString colorKey(KDiamond::Color color)
 	return colors[(color < 0 || color >= KDiamond::ColorsCount) ? 0 : color];
 }
 
-Diamond::Diamond(KDiamond::Color color, KGameRenderer* renderer, QGraphicsItem* parent)
+Diamond::Diamond(KDiamond::Color color, KGameRenderer* renderer, QGraphicsItem* parent, JollyType jollyType)
 	: KGameRenderedObjectItem(renderer, colorKey(color), parent)
 	, m_color(color)
+	, m_jollyType(jollyType)
 {
 	//selection markers do not react to mouse events; they should also appear behind diamonds
 	if (color == KDiamond::Selection)
@@ -95,6 +96,18 @@ void Diamond::mouseReleaseEvent(QGraphicsSceneMouseEvent *event)
 		emit clicked();
 		m_mouseDown = false;
 	}
+}
+
+bool Diamond::isJolly() const{
+    return m_jollyType != JollyType::None;
+}
+
+void Diamond::setJolly(JollyType type){
+    m_jollyType = type;
+}
+
+JollyType Diamond::jollyType() const{
+    return m_jollyType;
 }
 
 #include "diamond.moc"

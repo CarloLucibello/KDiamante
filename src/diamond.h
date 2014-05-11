@@ -39,13 +39,20 @@ namespace KDiamond
 	};
 }
 
+
+enum class JollyType {None = 0, H, V, Cookie, Bag};
+
+
 class Diamond : public KGameRenderedObjectItem
 {
 	Q_OBJECT
 	public:
-		Diamond(KDiamond::Color color, KGameRenderer* renderer, QGraphicsItem* parent = 0);
+		Diamond(KDiamond::Color color, KGameRenderer* renderer, QGraphicsItem* parent = 0, JollyType jollyType = JollyType::None);
 
 		KDiamond::Color color() const;
+        bool isJolly() const;
+        void setJolly(JollyType type);
+        JollyType jollyType() const;
 	Q_SIGNALS:
 		void clicked();
 		void dragged(const QPoint& direction);
@@ -57,6 +64,7 @@ class Diamond : public KGameRenderedObjectItem
 		KDiamond::Color m_color;
 		bool m_mouseDown;
 		QPointF m_mouseDownPos; //position of last mouse-down event in local coordinates
+        JollyType m_jollyType;
 };
 
 #endif //KDIAMOND_DIAMOND_H

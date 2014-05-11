@@ -1,4 +1,4 @@
-# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes
+# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/themes
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,15 +42,15 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/share/apps/kdiamond/themes" TYPE FILE FILES
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/diamonds.desktop"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/diamonds.svgz"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/diamonds.png"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/funny_zoo.desktop"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/funny_zoo.svgz"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/funny_zoo.png"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/default.desktop"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/egyptian.svgz"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/egyptian_preview.png"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/diamonds.desktop"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/diamonds.svgz"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/diamonds.png"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/funny_zoo.desktop"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/funny_zoo.svgz"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/funny_zoo.png"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/default.desktop"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/egyptian.svgz"
+    "/home/carlo/Dropbox/workspace/KDiamond/themes/egyptian_preview.png"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

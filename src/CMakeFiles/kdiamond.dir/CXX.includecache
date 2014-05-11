@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/board.h
+/home/carlo/Dropbox/workspace/KDiamond/src/board.h
 QGraphicsItem
 -
 
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/diamond.h
+/home/carlo/Dropbox/workspace/KDiamond/src/diamond.h
 KGameRenderedObjectItem
 -
 
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game-state.h
+/home/carlo/Dropbox/workspace/KDiamond/src/game-state.h
 QObject
 -
 
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.cpp
+/home/carlo/Dropbox/workspace/KDiamond/src/game.cpp
 game.h
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.h
+/home/carlo/Dropbox/workspace/KDiamond/src/game.h
 board.h
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/board.h
+/home/carlo/Dropbox/workspace/KDiamond/src/board.h
 diamond.h
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/diamond.h
+/home/carlo/Dropbox/workspace/KDiamond/src/diamond.h
 settings.h
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/settings.h
+/home/carlo/Dropbox/workspace/KDiamond/src/settings.h
 cmath
 -
 QPainter
@@ -48,21 +48,25 @@ KNotification
 iostream
 -
 game.moc
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.moc
+/home/carlo/Dropbox/workspace/KDiamond/src/game.moc
 
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.h
+/home/carlo/Dropbox/workspace/KDiamond/src/game.h
 game-state.h
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game-state.h
+/home/carlo/Dropbox/workspace/KDiamond/src/game-state.h
 QGraphicsScene
+-
+ctime
 -
 utility
 -
+windows.h
+-
 
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.moc
+/home/carlo/Dropbox/workspace/KDiamond/src/game.moc
 game.h
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.h
+/home/carlo/Dropbox/workspace/KDiamond/src/game.h
 
-/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/settings.h
+/home/carlo/Dropbox/workspace/KDiamond/src/settings.h
 kconfigskeleton.h
 -
 kdebug.h

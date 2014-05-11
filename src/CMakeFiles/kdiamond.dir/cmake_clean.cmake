@@ -15,6 +15,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/kdiamond.dir/settings.o"
   "kdiamond.pdb"
   "kdiamond"
+  "kdiamond.pdb"
+  "CMakeFiles/CMakeRelink.dir/kdiamond"
 )
 
 # Per-language clean rules from dependency scanning.

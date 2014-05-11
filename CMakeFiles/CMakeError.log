@@ -1,0 +1,304 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3055264474/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3055264474.dir/build.make CMakeFiles/cmTryCompileExec3055264474.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3055264474.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3055264474.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_WIN’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec3055264474.dir/CheckSymbolExists.c.o] Errore 1
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+make: *** [cmTryCompileExec3055264474/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1933700981/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1933700981.dir/build.make CMakeFiles/cmTryCompileExec1933700981.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1933700981.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1933700981.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_QWS’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+make[1]: *** [CMakeFiles/cmTryCompileExec1933700981.dir/CheckSymbolExists.c.o] Errore 1
+make: *** [cmTryCompileExec1933700981/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec135812758/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec135812758.dir/build.make CMakeFiles/cmTryCompileExec135812758.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec135812758.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec135812758.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_MAC’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec135812758.dir/CheckSymbolExists.c.o] Errore 1
+make: *** [cmTryCompileExec135812758/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4000624153/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4000624153.dir/build.make CMakeFiles/cmTryCompileExec4000624153.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4000624153.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4000624153.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4000624153
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4000624153.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4000624153.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4000624153 -rdynamic 
+CMakeFiles/cmTryCompileExec4000624153.dir/CheckSymbolExists.c.o: nella funzione "main":
+CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4000624153] Errore 1
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+make: *** [cmTryCompileExec4000624153/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec329754751/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec329754751.dir/build.make CMakeFiles/cmTryCompileExec329754751.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec329754751.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec329754751.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec329754751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec329754751.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec329754751.dir/CheckFunctionExists.c.o  -o cmTryCompileExec329754751 -rdynamic -lpthreads 
+/usr/bin/ld: impossibile trovare -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec329754751] Errore 1
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles/CMakeTmp"
+make: *** [cmTryCompileExec329754751/fast] Errore 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1870697355/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1870697355.dir/build.make CMakeFiles/cmTryCompileExec1870697355.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1870697355.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1870697355.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_WIN’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec1870697355.dir/CheckSymbolExists.c.o] Errore 1
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+make: *** [cmTryCompileExec1870697355/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1229289452/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1229289452.dir/build.make CMakeFiles/cmTryCompileExec1229289452.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1229289452.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1229289452.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_QWS’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+make[1]: *** [CMakeFiles/cmTryCompileExec1229289452.dir/CheckSymbolExists.c.o] Errore 1
+make: *** [cmTryCompileExec1229289452/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4156930695/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4156930695.dir/build.make CMakeFiles/cmTryCompileExec4156930695.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4156930695.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4156930695.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_MAC’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec4156930695.dir/CheckSymbolExists.c.o] Errore 1
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+make: *** [cmTryCompileExec4156930695/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1122399484/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1122399484.dir/build.make CMakeFiles/cmTryCompileExec1122399484.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1122399484.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1122399484.dir/CheckSymbolExists.c.o   -c /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1122399484
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1122399484.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1122399484.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1122399484 -rdynamic 
+CMakeFiles/cmTryCompileExec1122399484.dir/CheckSymbolExists.c.o: nella funzione "main":
+CheckSymbolExists.c:(.text+0x16): riferimento non definito a "pthread_create"
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1122399484] Errore 1
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+make: *** [cmTryCompileExec1122399484/fast] Errore 2
+
+File /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec307203475/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec307203475.dir/build.make CMakeFiles/cmTryCompileExec307203475.dir/build
+make[1]: ingresso nella directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+/usr/bin/cmake -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec307203475.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec307203475.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec307203475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec307203475.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec307203475.dir/CheckFunctionExists.c.o  -o cmTryCompileExec307203475 -rdynamic -lpthreads 
+/usr/bin/ld: impossibile trovare -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec307203475] Errore 1
+make[1]: uscita dalla directory "/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/CMakeTmp"
+make: *** [cmTryCompileExec307203475/fast] Errore 2
+
+

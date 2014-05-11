@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # Utility rule file for kdiamond_automoc.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
 include src/CMakeFiles/kdiamond_automoc.dir/progress.make
 
 src/CMakeFiles/kdiamond_automoc:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/automoc4 /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond_automoc.cpp /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src /usr/lib/x86_64-linux-gnu/qt4/bin/moc /usr/bin/cmake
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/automoc4 /home/carlo/Dropbox/workspace/KDiamond/src/kdiamond_automoc.cpp /home/carlo/Dropbox/workspace/KDiamond/src /home/carlo/Dropbox/workspace/KDiamond/src /usr/lib/x86_64-linux-gnu/qt4/bin/moc /usr/bin/cmake
 
 kdiamond_automoc: src/CMakeFiles/kdiamond_automoc
 kdiamond_automoc: src/CMakeFiles/kdiamond_automoc.dir/build.make
@@ -57,10 +57,10 @@ src/CMakeFiles/kdiamond_automoc.dir/build: kdiamond_automoc
 .PHONY : src/CMakeFiles/kdiamond_automoc.dir/build
 
 src/CMakeFiles/kdiamond_automoc.dir/clean:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && $(CMAKE_COMMAND) -P CMakeFiles/kdiamond_automoc.dir/cmake_clean.cmake
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && $(CMAKE_COMMAND) -P CMakeFiles/kdiamond_automoc.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/kdiamond_automoc.dir/clean
 
 src/CMakeFiles/kdiamond_automoc.dir/depend:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlo/Dropbox/workspace/KDiamond/kdiamond /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src /home/carlo/Dropbox/workspace/KDiamond/kdiamond /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/CMakeFiles/kdiamond_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlo/Dropbox/workspace/KDiamond /home/carlo/Dropbox/workspace/KDiamond/src /home/carlo/Dropbox/workspace/KDiamond /home/carlo/Dropbox/workspace/KDiamond/src /home/carlo/Dropbox/workspace/KDiamond/src/CMakeFiles/kdiamond_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/kdiamond_automoc.dir/depend
 

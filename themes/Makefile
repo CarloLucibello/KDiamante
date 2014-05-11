@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -120,14 +110,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles /home/carlo/Dropbox/workspace/KDiamond/kdiamond/themes/CMakeFiles/progress.marks
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles 0
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles /home/carlo/Dropbox/workspace/KDiamond/themes/CMakeFiles/progress.marks
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/clean
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,17 +126,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/preinstall
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/preinstall
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 themes/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -158,7 +148,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
@@ -173,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

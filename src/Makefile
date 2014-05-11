@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -120,14 +110,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/CMakeFiles/progress.marks
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles 0
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles /home/carlo/Dropbox/workspace/KDiamond/src/CMakeFiles/progress.marks
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/kdiamond.dir/rule:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/kdiamond.dir/rule
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/kdiamond.dir/rule
 .PHONY : src/CMakeFiles/kdiamond.dir/rule
 
 # Convenience name for target.
@@ -160,12 +150,17 @@ kdiamond: src/CMakeFiles/kdiamond.dir/rule
 
 # fast build rule for target.
 kdiamond/fast:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/build
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/build
 .PHONY : kdiamond/fast
+
+# Manual pre-install relink rule for target.
+kdiamond/preinstall:
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/kdiamond.dir/preinstall
+.PHONY : kdiamond/preinstall
 
 # Convenience name for target.
 src/CMakeFiles/kdiamond_automoc.dir/rule:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/kdiamond_automoc.dir/rule
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/kdiamond_automoc.dir/rule
 .PHONY : src/CMakeFiles/kdiamond_automoc.dir/rule
 
 # Convenience name for target.
@@ -174,157 +169,157 @@ kdiamond_automoc: src/CMakeFiles/kdiamond_automoc.dir/rule
 
 # fast build rule for target.
 kdiamond_automoc/fast:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond_automoc.dir/build.make src/CMakeFiles/kdiamond_automoc.dir/build
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond_automoc.dir/build.make src/CMakeFiles/kdiamond_automoc.dir/build
 .PHONY : kdiamond_automoc/fast
 
 # target to build an object file
 board.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/board.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/board.o
 .PHONY : board.o
 
 # target to preprocess a source file
 board.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/board.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/board.i
 .PHONY : board.i
 
 # target to generate assembly for a file
 board.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/board.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/board.s
 .PHONY : board.s
 
 # target to build an object file
 diamond.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/diamond.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/diamond.o
 .PHONY : diamond.o
 
 # target to preprocess a source file
 diamond.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/diamond.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/diamond.i
 .PHONY : diamond.i
 
 # target to generate assembly for a file
 diamond.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/diamond.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/diamond.s
 .PHONY : diamond.s
 
 # target to build an object file
 game-state.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game-state.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game-state.o
 .PHONY : game-state.o
 
 # target to preprocess a source file
 game-state.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game-state.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game-state.i
 .PHONY : game-state.i
 
 # target to generate assembly for a file
 game-state.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game-state.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game-state.s
 .PHONY : game-state.s
 
 # target to build an object file
 game.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game.o
 .PHONY : game.o
 
 # target to preprocess a source file
 game.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game.i
 .PHONY : game.i
 
 # target to generate assembly for a file
 game.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/game.s
 .PHONY : game.s
 
 # target to build an object file
 infobar.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/infobar.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/infobar.o
 .PHONY : infobar.o
 
 # target to preprocess a source file
 infobar.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/infobar.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/infobar.i
 .PHONY : infobar.i
 
 # target to generate assembly for a file
 infobar.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/infobar.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/infobar.s
 .PHONY : infobar.s
 
 # target to build an object file
 kdiamond_automoc.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o
 .PHONY : kdiamond_automoc.o
 
 # target to preprocess a source file
 kdiamond_automoc.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/kdiamond_automoc.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/kdiamond_automoc.i
 .PHONY : kdiamond_automoc.i
 
 # target to generate assembly for a file
 kdiamond_automoc.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/kdiamond_automoc.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/kdiamond_automoc.s
 .PHONY : kdiamond_automoc.s
 
 # target to build an object file
 main.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/main.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/main.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/main.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/main.s
 .PHONY : main.s
 
 # target to build an object file
 mainwindow.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/mainwindow.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/mainwindow.o
 .PHONY : mainwindow.o
 
 # target to preprocess a source file
 mainwindow.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/mainwindow.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/mainwindow.i
 .PHONY : mainwindow.i
 
 # target to generate assembly for a file
 mainwindow.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/mainwindow.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/mainwindow.s
 .PHONY : mainwindow.s
 
 # target to build an object file
 settings.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/settings.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/settings.o
 .PHONY : settings.o
 
 # target to preprocess a source file
 settings.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/settings.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/settings.i
 .PHONY : settings.i
 
 # target to generate assembly for a file
 settings.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/settings.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/settings.s
 .PHONY : settings.s
 
 # target to build an object file
 view.o:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/view.o
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/view.o
 .PHONY : view.o
 
 # target to preprocess a source file
 view.i:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/view.i
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/view.i
 .PHONY : view.i
 
 # target to generate assembly for a file
 view.s:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/view.s
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(MAKE) -f src/CMakeFiles/kdiamond.dir/build.make src/CMakeFiles/kdiamond.dir/view.s
 .PHONY : view.s
 
 # Help Target
@@ -336,7 +331,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... kdiamond"
 	@echo "... kdiamond_automoc"
 	@echo "... list_install_components"
@@ -383,6 +377,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

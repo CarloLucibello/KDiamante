@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # Utility rule file for doc-handbook.
 
@@ -49,9 +49,9 @@ doc/CMakeFiles/doc-handbook: doc/index.cache.bz2
 
 doc/index.cache.bz2: doc/index.docbook
 doc/index.cache.bz2: /usr/share/kde4/apps/ksgmltools2/customization/kde-chunk.xsl
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating index.cache.bz2"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc && /usr/bin/meinproc4 --check --cache /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc/index.cache.bz2 /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc/index.docbook
+	cd /home/carlo/Dropbox/workspace/KDiamond/doc && /usr/bin/meinproc4 --check --cache /home/carlo/Dropbox/workspace/KDiamond/doc/index.cache.bz2 /home/carlo/Dropbox/workspace/KDiamond/doc/index.docbook
 
 doc-handbook: doc/CMakeFiles/doc-handbook
 doc-handbook: doc/index.cache.bz2
@@ -63,10 +63,10 @@ doc/CMakeFiles/doc-handbook.dir/build: doc-handbook
 .PHONY : doc/CMakeFiles/doc-handbook.dir/build
 
 doc/CMakeFiles/doc-handbook.dir/clean:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc && $(CMAKE_COMMAND) -P CMakeFiles/doc-handbook.dir/cmake_clean.cmake
+	cd /home/carlo/Dropbox/workspace/KDiamond/doc && $(CMAKE_COMMAND) -P CMakeFiles/doc-handbook.dir/cmake_clean.cmake
 .PHONY : doc/CMakeFiles/doc-handbook.dir/clean
 
 doc/CMakeFiles/doc-handbook.dir/depend:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlo/Dropbox/workspace/KDiamond/kdiamond /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc /home/carlo/Dropbox/workspace/KDiamond/kdiamond /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc/CMakeFiles/doc-handbook.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlo/Dropbox/workspace/KDiamond /home/carlo/Dropbox/workspace/KDiamond/doc /home/carlo/Dropbox/workspace/KDiamond /home/carlo/Dropbox/workspace/KDiamond/doc /home/carlo/Dropbox/workspace/KDiamond/doc/CMakeFiles/doc-handbook.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/CMakeFiles/doc-handbook.dir/depend
 

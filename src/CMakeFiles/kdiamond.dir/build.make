@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_SOURCE_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond/kdiamond
+CMAKE_BINARY_DIR = /home/carlo/Dropbox/workspace/KDiamond
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/kdiamond.dir/depend.make
@@ -51,25 +51,25 @@ include src/CMakeFiles/kdiamond.dir/flags.make
 
 src/settings.h: src/kdiamond.kcfg
 src/settings.h: src/settings.kcfgc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating settings.h, settings.cpp"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/kconfig_compiler /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond.kcfg /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/settings.kcfgc -d /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/kconfig_compiler /home/carlo/Dropbox/workspace/KDiamond/src/kdiamond.kcfg /home/carlo/Dropbox/workspace/KDiamond/src/settings.kcfgc -d /home/carlo/Dropbox/workspace/KDiamond/src/
 
 src/settings.cpp: src/settings.h
 
 src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o: src/kdiamond_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/kdiamond_automoc.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond_automoc.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/kdiamond_automoc.o -c /home/carlo/Dropbox/workspace/KDiamond/src/kdiamond_automoc.cpp
 
 src/CMakeFiles/kdiamond.dir/kdiamond_automoc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/kdiamond_automoc.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond_automoc.cpp > CMakeFiles/kdiamond.dir/kdiamond_automoc.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/kdiamond_automoc.cpp > CMakeFiles/kdiamond.dir/kdiamond_automoc.i
 
 src/CMakeFiles/kdiamond.dir/kdiamond_automoc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/kdiamond_automoc.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond_automoc.cpp -o CMakeFiles/kdiamond.dir/kdiamond_automoc.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/kdiamond_automoc.cpp -o CMakeFiles/kdiamond.dir/kdiamond_automoc.s
 
 src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o.requires
@@ -82,17 +82,17 @@ src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o.provides.build: src/CMakeFiles/kd
 
 src/CMakeFiles/kdiamond.dir/board.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/board.o: src/board.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/board.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/board.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/board.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/board.o -c /home/carlo/Dropbox/workspace/KDiamond/src/board.cpp
 
 src/CMakeFiles/kdiamond.dir/board.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/board.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/board.cpp > CMakeFiles/kdiamond.dir/board.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/board.cpp > CMakeFiles/kdiamond.dir/board.i
 
 src/CMakeFiles/kdiamond.dir/board.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/board.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/board.cpp -o CMakeFiles/kdiamond.dir/board.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/board.cpp -o CMakeFiles/kdiamond.dir/board.s
 
 src/CMakeFiles/kdiamond.dir/board.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/board.o.requires
@@ -105,17 +105,17 @@ src/CMakeFiles/kdiamond.dir/board.o.provides.build: src/CMakeFiles/kdiamond.dir/
 
 src/CMakeFiles/kdiamond.dir/diamond.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/diamond.o: src/diamond.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/diamond.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/diamond.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/diamond.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/diamond.o -c /home/carlo/Dropbox/workspace/KDiamond/src/diamond.cpp
 
 src/CMakeFiles/kdiamond.dir/diamond.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/diamond.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/diamond.cpp > CMakeFiles/kdiamond.dir/diamond.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/diamond.cpp > CMakeFiles/kdiamond.dir/diamond.i
 
 src/CMakeFiles/kdiamond.dir/diamond.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/diamond.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/diamond.cpp -o CMakeFiles/kdiamond.dir/diamond.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/diamond.cpp -o CMakeFiles/kdiamond.dir/diamond.s
 
 src/CMakeFiles/kdiamond.dir/diamond.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/diamond.o.requires
@@ -128,17 +128,17 @@ src/CMakeFiles/kdiamond.dir/diamond.o.provides.build: src/CMakeFiles/kdiamond.di
 
 src/CMakeFiles/kdiamond.dir/game.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/game.o: src/game.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/game.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/game.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/game.o -c /home/carlo/Dropbox/workspace/KDiamond/src/game.cpp
 
 src/CMakeFiles/kdiamond.dir/game.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/game.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.cpp > CMakeFiles/kdiamond.dir/game.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/game.cpp > CMakeFiles/kdiamond.dir/game.i
 
 src/CMakeFiles/kdiamond.dir/game.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/game.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game.cpp -o CMakeFiles/kdiamond.dir/game.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/game.cpp -o CMakeFiles/kdiamond.dir/game.s
 
 src/CMakeFiles/kdiamond.dir/game.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/game.o.requires
@@ -151,17 +151,17 @@ src/CMakeFiles/kdiamond.dir/game.o.provides.build: src/CMakeFiles/kdiamond.dir/g
 
 src/CMakeFiles/kdiamond.dir/game-state.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/game-state.o: src/game-state.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/game-state.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/game-state.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game-state.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/game-state.o -c /home/carlo/Dropbox/workspace/KDiamond/src/game-state.cpp
 
 src/CMakeFiles/kdiamond.dir/game-state.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/game-state.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game-state.cpp > CMakeFiles/kdiamond.dir/game-state.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/game-state.cpp > CMakeFiles/kdiamond.dir/game-state.i
 
 src/CMakeFiles/kdiamond.dir/game-state.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/game-state.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/game-state.cpp -o CMakeFiles/kdiamond.dir/game-state.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/game-state.cpp -o CMakeFiles/kdiamond.dir/game-state.s
 
 src/CMakeFiles/kdiamond.dir/game-state.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/game-state.o.requires
@@ -174,17 +174,17 @@ src/CMakeFiles/kdiamond.dir/game-state.o.provides.build: src/CMakeFiles/kdiamond
 
 src/CMakeFiles/kdiamond.dir/infobar.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/infobar.o: src/infobar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/infobar.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/infobar.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/infobar.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/infobar.o -c /home/carlo/Dropbox/workspace/KDiamond/src/infobar.cpp
 
 src/CMakeFiles/kdiamond.dir/infobar.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/infobar.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/infobar.cpp > CMakeFiles/kdiamond.dir/infobar.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/infobar.cpp > CMakeFiles/kdiamond.dir/infobar.i
 
 src/CMakeFiles/kdiamond.dir/infobar.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/infobar.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/infobar.cpp -o CMakeFiles/kdiamond.dir/infobar.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/infobar.cpp -o CMakeFiles/kdiamond.dir/infobar.s
 
 src/CMakeFiles/kdiamond.dir/infobar.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/infobar.o.requires
@@ -197,17 +197,17 @@ src/CMakeFiles/kdiamond.dir/infobar.o.provides.build: src/CMakeFiles/kdiamond.di
 
 src/CMakeFiles/kdiamond.dir/main.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/main.o: src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/main.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/main.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/main.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/main.o -c /home/carlo/Dropbox/workspace/KDiamond/src/main.cpp
 
 src/CMakeFiles/kdiamond.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/main.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/main.cpp > CMakeFiles/kdiamond.dir/main.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/main.cpp > CMakeFiles/kdiamond.dir/main.i
 
 src/CMakeFiles/kdiamond.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/main.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/main.cpp -o CMakeFiles/kdiamond.dir/main.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/main.cpp -o CMakeFiles/kdiamond.dir/main.s
 
 src/CMakeFiles/kdiamond.dir/main.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/main.o.requires
@@ -220,17 +220,17 @@ src/CMakeFiles/kdiamond.dir/main.o.provides.build: src/CMakeFiles/kdiamond.dir/m
 
 src/CMakeFiles/kdiamond.dir/mainwindow.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/mainwindow.o: src/mainwindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/mainwindow.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/mainwindow.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/mainwindow.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/mainwindow.o -c /home/carlo/Dropbox/workspace/KDiamond/src/mainwindow.cpp
 
 src/CMakeFiles/kdiamond.dir/mainwindow.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/mainwindow.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/mainwindow.cpp > CMakeFiles/kdiamond.dir/mainwindow.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/mainwindow.cpp > CMakeFiles/kdiamond.dir/mainwindow.i
 
 src/CMakeFiles/kdiamond.dir/mainwindow.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/mainwindow.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/mainwindow.cpp -o CMakeFiles/kdiamond.dir/mainwindow.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/mainwindow.cpp -o CMakeFiles/kdiamond.dir/mainwindow.s
 
 src/CMakeFiles/kdiamond.dir/mainwindow.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/mainwindow.o.requires
@@ -243,17 +243,17 @@ src/CMakeFiles/kdiamond.dir/mainwindow.o.provides.build: src/CMakeFiles/kdiamond
 
 src/CMakeFiles/kdiamond.dir/view.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/view.o: src/view.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/view.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/view.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/view.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/view.o -c /home/carlo/Dropbox/workspace/KDiamond/src/view.cpp
 
 src/CMakeFiles/kdiamond.dir/view.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/view.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/view.cpp > CMakeFiles/kdiamond.dir/view.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/view.cpp > CMakeFiles/kdiamond.dir/view.i
 
 src/CMakeFiles/kdiamond.dir/view.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/view.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/view.cpp -o CMakeFiles/kdiamond.dir/view.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/view.cpp -o CMakeFiles/kdiamond.dir/view.s
 
 src/CMakeFiles/kdiamond.dir/view.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/view.o.requires
@@ -266,17 +266,17 @@ src/CMakeFiles/kdiamond.dir/view.o.provides.build: src/CMakeFiles/kdiamond.dir/v
 
 src/CMakeFiles/kdiamond.dir/settings.o: src/CMakeFiles/kdiamond.dir/flags.make
 src/CMakeFiles/kdiamond.dir/settings.o: src/settings.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/kdiamond/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/carlo/Dropbox/workspace/KDiamond/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/kdiamond.dir/settings.o"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/settings.o -c /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/settings.cpp
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kdiamond.dir/settings.o -c /home/carlo/Dropbox/workspace/KDiamond/src/settings.cpp
 
 src/CMakeFiles/kdiamond.dir/settings.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kdiamond.dir/settings.i"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/settings.cpp > CMakeFiles/kdiamond.dir/settings.i
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/carlo/Dropbox/workspace/KDiamond/src/settings.cpp > CMakeFiles/kdiamond.dir/settings.i
 
 src/CMakeFiles/kdiamond.dir/settings.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kdiamond.dir/settings.s"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/settings.cpp -o CMakeFiles/kdiamond.dir/settings.s
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/carlo/Dropbox/workspace/KDiamond/src/settings.cpp -o CMakeFiles/kdiamond.dir/settings.s
 
 src/CMakeFiles/kdiamond.dir/settings.o.requires:
 .PHONY : src/CMakeFiles/kdiamond.dir/settings.o.requires
@@ -325,12 +325,56 @@ src/kdiamond: /usr/lib/x86_64-linux-gnu/libQtDBus.so
 src/kdiamond: /usr/lib/x86_64-linux-gnu/libQtCore.so
 src/kdiamond: src/CMakeFiles/kdiamond.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable kdiamond"
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kdiamond.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && /usr/bin/cmake -D_filename=/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond.shell -D_library_path_variable=LD_LIBRARY_PATH -D_ld_library_path="/home/carlo/Dropbox/workspace/KDiamond/kdiamond/lib/./:/usr/local/lib:/usr/lib:/usr/lib/x86_64-linux-gnu" -D_executable=/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond -P /usr/share/kde4/apps/cmake/modules/kde4_exec_via_sh.cmake
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kdiamond.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && /usr/bin/cmake -D_filename=/home/carlo/Dropbox/workspace/KDiamond/src/kdiamond.shell -D_library_path_variable=LD_LIBRARY_PATH -D_ld_library_path="/home/carlo/Dropbox/workspace/KDiamond/lib/./:/usr/local/lib:/usr/lib:/usr/lib/x86_64-linux-gnu" -D_executable=/home/carlo/Dropbox/workspace/KDiamond/src/kdiamond -P /usr/share/kde4/apps/cmake/modules/kde4_exec_via_sh.cmake
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/kdiamond.dir/build: src/kdiamond
 .PHONY : src/CMakeFiles/kdiamond.dir/build
+
+# Object files for target kdiamond
+kdiamond_OBJECTS = \
+"CMakeFiles/kdiamond.dir/kdiamond_automoc.o" \
+"CMakeFiles/kdiamond.dir/board.o" \
+"CMakeFiles/kdiamond.dir/diamond.o" \
+"CMakeFiles/kdiamond.dir/game.o" \
+"CMakeFiles/kdiamond.dir/game-state.o" \
+"CMakeFiles/kdiamond.dir/infobar.o" \
+"CMakeFiles/kdiamond.dir/main.o" \
+"CMakeFiles/kdiamond.dir/mainwindow.o" \
+"CMakeFiles/kdiamond.dir/view.o" \
+"CMakeFiles/kdiamond.dir/settings.o"
+
+# External object files for target kdiamond
+kdiamond_EXTERNAL_OBJECTS =
+
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/board.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/diamond.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/game.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/game-state.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/infobar.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/main.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/mainwindow.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/view.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/settings.o
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/build.make
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/libkdeui.so.5.11.5
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/libkdegames.so.6.1.0
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/libknotifyconfig.so.4.11.5
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/libkdeui.so.5.11.5
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/x86_64-linux-gnu/libQtGui.so
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/x86_64-linux-gnu/libQtSvg.so
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/libkdecore.so.5.11.5
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/x86_64-linux-gnu/libQtDBus.so
+src/CMakeFiles/CMakeRelink.dir/kdiamond: /usr/lib/x86_64-linux-gnu/libQtCore.so
+src/CMakeFiles/CMakeRelink.dir/kdiamond: src/CMakeFiles/kdiamond.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable CMakeFiles/CMakeRelink.dir/kdiamond"
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kdiamond.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+src/CMakeFiles/kdiamond.dir/preinstall: src/CMakeFiles/CMakeRelink.dir/kdiamond
+.PHONY : src/CMakeFiles/kdiamond.dir/preinstall
 
 src/CMakeFiles/kdiamond.dir/requires: src/CMakeFiles/kdiamond.dir/kdiamond_automoc.o.requires
 src/CMakeFiles/kdiamond.dir/requires: src/CMakeFiles/kdiamond.dir/board.o.requires
@@ -345,11 +389,11 @@ src/CMakeFiles/kdiamond.dir/requires: src/CMakeFiles/kdiamond.dir/settings.o.req
 .PHONY : src/CMakeFiles/kdiamond.dir/requires
 
 src/CMakeFiles/kdiamond.dir/clean:
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src && $(CMAKE_COMMAND) -P CMakeFiles/kdiamond.dir/cmake_clean.cmake
+	cd /home/carlo/Dropbox/workspace/KDiamond/src && $(CMAKE_COMMAND) -P CMakeFiles/kdiamond.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/kdiamond.dir/clean
 
 src/CMakeFiles/kdiamond.dir/depend: src/settings.h
 src/CMakeFiles/kdiamond.dir/depend: src/settings.cpp
-	cd /home/carlo/Dropbox/workspace/KDiamond/kdiamond && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlo/Dropbox/workspace/KDiamond/kdiamond /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src /home/carlo/Dropbox/workspace/KDiamond/kdiamond /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/CMakeFiles/kdiamond.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carlo/Dropbox/workspace/KDiamond && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlo/Dropbox/workspace/KDiamond /home/carlo/Dropbox/workspace/KDiamond/src /home/carlo/Dropbox/workspace/KDiamond /home/carlo/Dropbox/workspace/KDiamond/src /home/carlo/Dropbox/workspace/KDiamond/src/CMakeFiles/kdiamond.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/kdiamond.dir/depend
 

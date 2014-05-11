@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'game.h'
 **
-** Created: Wed Apr 16 12:02:57 2014
+** Created: Sun May 11 10:42:47 2014
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_Game[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      10,   14, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -43,6 +43,7 @@ static const uint qt_meta_data_Game[] = {
      187,  179,    5,    5, 0x0a,
      210,  204,    5,    5, 0x0a,
      239,    5,    5,    5, 0x0a,
+     253,  250,    5,    5, 0x0a,
 
        0        // eod
 };
@@ -55,6 +56,7 @@ static const char qt_meta_stringdata_Game[] = {
     "animationFinished()\0message\0"
     "message(QString)\0state\0"
     "stateChange(KDiamond::State)\0showHint()\0"
+    "ms\0sleep(int)\0"
 };
 
 void Game::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -73,6 +75,7 @@ void Game::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         case 7: _t->message((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 8: _t->stateChange((*reinterpret_cast< KDiamond::State(*)>(_a[1]))); break;
         case 9: _t->showHint(); break;
+        case 10: _t->sleep((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -110,9 +113,9 @@ int Game::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 10)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 10;
+        _id -= 11;
     }
     return _id;
 }

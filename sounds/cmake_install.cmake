@@ -1,4 +1,4 @@
-# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/sounds
+# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/sounds
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,9 +42,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/share/sounds" TYPE FILE FILES
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/sounds/KDiamond-Stone-Drop.ogg"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/sounds/KDiamond-Stone-Swap.ogg"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/sounds/KDiamond-Stone-Touch.ogg"
+    "/home/carlo/Dropbox/workspace/KDiamond/sounds/KDiamond-Stone-Drop.ogg"
+    "/home/carlo/Dropbox/workspace/KDiamond/sounds/KDiamond-Stone-Swap.ogg"
+    "/home/carlo/Dropbox/workspace/KDiamond/sounds/KDiamond-Stone-Touch.ogg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

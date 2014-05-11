@@ -44,7 +44,7 @@ namespace KDiamond
 			void clearSelection();
 
 			void removeDiamond(const QPoint& point);
-			void swapDiamonds(const QPoint& point1, const QPoint& point2);
+			void swapDiamonds(const QPoint& point1, const QPoint& point2, bool anumated = true);
 			void fillGaps();
 
 			virtual QRectF boundingRect() const;

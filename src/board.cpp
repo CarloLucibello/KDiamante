@@ -218,7 +218,7 @@ void KDiamond::Board::spawnMoveAnimations(const QList<MoveAnimSpec>& specs)
 	}
 }
 
-void KDiamond::Board::swapDiamonds(const QPoint& point1, const QPoint& point2)
+void KDiamond::Board::swapDiamonds(const QPoint& point1, const QPoint& point2, bool animated)
 {
 	//swap diamonds in internal representation
 	Diamond* diamond1 = this->diamond(point1);
@@ -226,9 +226,11 @@ void KDiamond::Board::swapDiamonds(const QPoint& point1, const QPoint& point2)
 	rDiamond(point1) = diamond2;
 	rDiamond(point2) = diamond1;
 	//play movement animations
-	const MoveAnimSpec spec1 = { diamond1, point1, point2 };
-	const MoveAnimSpec spec2 = { diamond2, point2, point1 };
-	spawnMoveAnimations(QList<MoveAnimSpec>() << spec1 << spec2);
+	if(animated){
+        const MoveAnimSpec spec1 = { diamond1, point1, point2 };
+        const MoveAnimSpec spec2 = { diamond2, point2, point1 };
+        spawnMoveAnimations(QList<MoveAnimSpec>() << spec1 << spec2);
+    }
 }
 
 void KDiamond::Board::fillGaps()

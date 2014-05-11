@@ -1,4 +1,4 @@
-# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc
+# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/doc
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,8 +42,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/share/doc/HTML/en/kdiamond" TYPE FILE FILES
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc/index.cache.bz2"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/doc/index.docbook"
+    "/home/carlo/Dropbox/workspace/KDiamond/doc/index.cache.bz2"
+    "/home/carlo/Dropbox/workspace/KDiamond/doc/index.docbook"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

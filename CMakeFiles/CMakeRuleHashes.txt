@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+fda7b5b2fe72ab4572f0b5495a048b55 CMakeFiles/uninstall
+ec623b4b00ce33abcc5a0a48db5ef265 doc/CMakeFiles/doc-handbook
+7aafaa9e080bb57d0d6ec54e85e671da doc/index.cache.bz2
+2c04979213f78264d868c05bbddbc81c src/CMakeFiles/kdiamond_automoc
+5933f45b40b20ee13a2e5cf8e3d284ab src/settings.h

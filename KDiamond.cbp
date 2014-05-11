@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KDiamond" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/KDiamond" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/board.cpp" />
+		<Unit filename="src/board.h" />
+		<Unit filename="src/diamond.cpp" />
+		<Unit filename="src/diamond.h" />
+		<Unit filename="src/game-state.cpp" />
+		<Unit filename="src/game-state.h" />
+		<Unit filename="src/game.cpp" />
+		<Unit filename="src/game.h" />
+		<Unit filename="src/infobar.cpp" />
+		<Unit filename="src/infobar.h" />
+		<Unit filename="src/kdiamond_automoc.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/mainwindow.cpp" />
+		<Unit filename="src/mainwindow.h" />
+		<Unit filename="src/my_algorithm.h" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/player.h" />
+		<Unit filename="src/rng.h" />
+		<Unit filename="src/settings.cpp" />
+		<Unit filename="src/settings.h" />
+		<Unit filename="src/view.cpp" />
+		<Unit filename="src/view.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

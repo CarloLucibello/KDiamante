@@ -1,0 +1,4 @@
+/home/carlo/Dropbox/workspace/KDiamond/doc/CMakeFiles/doc-handbook.dir
+/home/carlo/Dropbox/workspace/KDiamond/src/CMakeFiles/kdiamond.dir
+/home/carlo/Dropbox/workspace/KDiamond/src/CMakeFiles/kdiamond_automoc.dir
+/home/carlo/Dropbox/workspace/KDiamond/CMakeFiles/uninstall.dir

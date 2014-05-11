@@ -1,4 +1,4 @@
-# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src
+# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,12 +33,6 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/kdiamond" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/kdiamond")
-    FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/bin/kdiamond"
-         RPATH "/usr/local/lib")
-  ENDIF()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/local/bin/kdiamond")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -47,17 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/kdiamond" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/kdiamond")
-    FILE(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/usr/local/bin/kdiamond"
-         OLD_RPATH "::::::::::::::"
-         NEW_RPATH "/usr/local/lib")
-    IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/kdiamond")
-    ENDIF(CMAKE_INSTALL_DO_STRIP)
-  ENDIF()
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/carlo/Dropbox/workspace/KDiamond/src/CMakeFiles/CMakeRelink.dir/kdiamond")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -70,9 +54,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/share/apps/kdiamond" TYPE FILE FILES
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond.kcfg"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond.notifyrc"
-    "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamondui.rc"
+    "/home/carlo/Dropbox/workspace/KDiamond/src/kdiamond.kcfg"
+    "/home/carlo/Dropbox/workspace/KDiamond/src/kdiamond.notifyrc"
+    "/home/carlo/Dropbox/workspace/KDiamond/src/kdiamondui.rc"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -85,7 +69,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/config" TYPE FILE FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond.knsrc")
+FILE(INSTALL DESTINATION "/usr/local/share/config" TYPE FILE FILES "/home/carlo/Dropbox/workspace/KDiamond/src/kdiamond.knsrc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -97,12 +81,12 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/applications/kde4" TYPE PROGRAM FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/kdiamond.desktop")
+FILE(INSTALL DESTINATION "/usr/local/share/applications/kde4" TYPE PROGRAM FILES "/home/carlo/Dropbox/workspace/KDiamond/src/kdiamond.desktop")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/cmake_install.cmake")
+  INCLUDE("/home/carlo/Dropbox/workspace/KDiamond/src/pics/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

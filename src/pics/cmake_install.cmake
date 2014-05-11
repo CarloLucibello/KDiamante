@@ -1,4 +1,4 @@
-# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics
+# Install script for directory: /home/carlo/Dropbox/workspace/KDiamond/src/pics
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/16x16/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/hi16-app-kdiamond.png")
+FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/16x16/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/src/pics/hi16-app-kdiamond.png")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -53,7 +53,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/64x64/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/hi64-app-kdiamond.png")
+FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/64x64/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/src/pics/hi64-app-kdiamond.png")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -65,7 +65,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/32x32/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/hi32-app-kdiamond.png")
+FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/32x32/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/src/pics/hi32-app-kdiamond.png")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -77,7 +77,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/48x48/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/hi48-app-kdiamond.png")
+FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/48x48/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/src/pics/hi48-app-kdiamond.png")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -89,7 +89,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/128x128/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/hi128-app-kdiamond.png")
+FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/128x128/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/src/pics/hi128-app-kdiamond.png")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -101,7 +101,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/22x22/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/hi22-app-kdiamond.png")
+FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/22x22/apps/." TYPE FILE RENAME "kdiamond.png" FILES "/home/carlo/Dropbox/workspace/KDiamond/src/pics/hi22-app-kdiamond.png")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -113,7 +113,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/scalable/apps/." TYPE FILE RENAME "kdiamond.svgz" FILES "/home/carlo/Dropbox/workspace/KDiamond/kdiamond/src/pics/hisc-app-kdiamond.svgz")
+FILE(INSTALL DESTINATION "/usr/local/share/icons/hicolor/scalable/apps/." TYPE FILE RENAME "kdiamond.svgz" FILES "/home/carlo/Dropbox/workspace/KDiamond/src/pics/hisc-app-kdiamond.svgz")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
